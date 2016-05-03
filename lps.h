@@ -6,7 +6,7 @@ namespace util {
 
 /* O(n^2) */
 template <typename Iterator>
-int longest_palindromic_substring(Iterator begin, Iterator end) {
+int longest_palindromic_subarray(Iterator begin, Iterator end) {
     int max_length = 0;
 
     for (Iterator it = begin; it != end; ++it) {
